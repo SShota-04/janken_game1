@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.penguin_main{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    background-image: url(img/back_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+}
+
+.penguin_flex{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#image_file1,
+#image_file2,
+#image_file3{
+    height: 400px;
+}
+
+.tensu_box{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+#tensu_hyoji{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.button_box{
+    text-align: center;
+}
+
+#start{
+    width: 150px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid cornflowerblue;
+    border-radius: 20px;
+}
+
+.dame_box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dame_box h1{
+    text-align: center;
+}
+
+.dame_button{
+    display: block;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 0 auto;
+}
